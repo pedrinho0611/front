@@ -4,7 +4,9 @@
 // import Exemplo03 from './components/exercicios/Exemplo03exercicio.vue'
 // import Exemplo04 from './components/exercicios/Exemplo04exercicio.vue'
 // import Exemplo05 from './components/exercicios/Exemplo05exercicio.vue'
-import Exemplo06 from './components/Exemplo02for.vue'
+// import Exemplo06 from './components/Exemplo02for.vue'
+import Exemplo07 from './components/exercicios/Exemplo06exercicio.vue'
+import Exemplo08 from './components/exercicios/Exemplo07exercicio.vue'
 </script>
 
 <template>
@@ -14,4 +16,6 @@ import Exemplo06 from './components/Exemplo02for.vue'
   <Exemplo04></Exemplo04>
   <Exemplo05></Exemplo05>
   <Exemplo06></Exemplo06>
+  <Exemplo07></Exemplo07>
+  <Exemplo08></Exemplo08>
 </template>
