@@ -2,7 +2,8 @@
 // import Exemplo01 from './components/exercicios/exemplo01exercicio.vue'
 // import Exemplo02 from './components/exercicios/Exemplo02exercicio.vue'
 // import Exemplo03 from './components/exercicios/Exemplo03exercicio.vue'
-import Exemplo04 from './components/exercicios/Exemplo04exercicio.vue'
+// import Exemplo04 from './components/exercicios/Exemplo04exercicio.vue'
+import Exemplo05 from './components/exercicios/Exemplo05exercicio.vue'
 </script>
 
 <template>
@@ -10,5 +11,5 @@ import Exemplo04 from './components/exercicios/Exemplo04exercicio.vue'
   <Exemplo02></Exemplo02>
   <Exemplo03></Exemplo03>
   <Exemplo04></Exemplo04>
-
+  <Exemplo05></Exemplo05>
 </template>
