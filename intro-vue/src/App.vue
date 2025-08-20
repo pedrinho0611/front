@@ -11,11 +11,12 @@
 // import Exemplo10 from './components/exercicios/Exemplo08exercicio.vue'
 // import Exemplo11 from './components/exercicios/Exemplo09exercicio.vue'
 // import Exemplo12 from './components/Exemplo05class.vue'
-import Exemplo13 from './components/exercicios/Exemplo10exercicio.vue'
+// import Exemplo13 from './components/exercicios/Exemplo10exercicio.vue'
+import Exemplo14 from './components/Exemplo06Clique.vue'
 </script>
 
 <template>
-  <Exemplo01></Exemplo01> 
+  <Exemplo01></Exemplo01>
   <Exemplo02></Exemplo02>
   <Exemplo03></Exemplo03>
   <Exemplo04></Exemplo04>
@@ -28,4 +29,5 @@ import Exemplo13 from './components/exercicios/Exemplo10exercicio.vue'
   <Exemplo11></Exemplo11>
   <Exemplo12></Exemplo12>
   <Exemplo13></Exemplo13>
+  <Exemplo14></Exemplo14>
 </template>
