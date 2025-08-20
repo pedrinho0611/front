@@ -10,7 +10,8 @@
 // import Exemplo09 from './components/Exemplo03HTML.vue'
 // import Exemplo10 from './components/exercicios/Exemplo08exercicio.vue'
 // import Exemplo11 from './components/exercicios/Exemplo09exercicio.vue'
-import Exemplo12 from './components/Exemplo05class.vue'
+// import Exemplo12 from './components/Exemplo05class.vue'
+import Exemplo13 from './components/exercicios/Exemplo10exercicio.vue'
 </script>
 
 <template>
@@ -26,4 +27,5 @@ import Exemplo12 from './components/Exemplo05class.vue'
   <Exemplo10></Exemplo10>
   <Exemplo11></Exemplo11>
   <Exemplo12></Exemplo12>
+  <Exemplo13></Exemplo13>
 </template>
