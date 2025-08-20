@@ -2,6 +2,7 @@
 let vaidacao = false
 let isError = false
 let isActive = true
+let isDisable = false
 </script>
 
 <template>
@@ -10,6 +11,8 @@ let isActive = true
     'ok': isActive,
     'falha': isError
     }">teste de diretiva Class</p>
+
+    <button :disabled="isDisable">Clique aqui</button>
 
 </template>
 
