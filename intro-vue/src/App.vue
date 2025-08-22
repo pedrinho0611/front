@@ -31,5 +31,5 @@ import Exemplo15 from './components/Exemplo07teclado.vue'
   <Exemplo12></Exemplo12>
   <Exemplo13></Exemplo13>
   <Exemplo14></Exemplo14>
-  <Exemplo15></Exemplo15>
+  <Exemplo15></Exemplo15> 5
 </template>
