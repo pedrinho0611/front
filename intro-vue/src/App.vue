@@ -13,23 +13,10 @@
 // import Exemplo12 from './components/Exemplo05class.vue'
 // import Exemplo13 from './components/exercicios/Exemplo10exercicio.vue'
 // import Exemplo14 from './components/Exemplo06Clique.vue'
-import Exemplo15 from './components/Exemplo07teclado.vue'
+// import Exemplo15 from './components/Exemplo07teclado.vue'
+import Exemplo016 from './components/Exemplo08Props.vue'
 </script>
 
 <template>
-  <Exemplo01></Exemplo01>
-  <Exemplo02></Exemplo02>
-  <Exemplo03></Exemplo03>
-  <Exemplo04></Exemplo04>
-  <Exemplo05></Exemplo05>
-  <Exemplo06></Exemplo06>
-  <Exemplo07></Exemplo07>
-  <Exemplo08></Exemplo08>
-  <Exemplo09></Exemplo09>
-  <Exemplo10></Exemplo10>
-  <Exemplo11></Exemplo11>
-  <Exemplo12></Exemplo12>
-  <Exemplo13></Exemplo13>
-  <Exemplo14></Exemplo14>
-  <Exemplo15></Exemplo15> 5
+  <Exemplo016 nome="Pedro" email="pedro@example.com" telefone="1234-5678" idade="30" ativo="true"  ></Exemplo016>
 </template>
