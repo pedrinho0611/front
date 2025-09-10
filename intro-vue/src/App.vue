@@ -16,12 +16,14 @@
 // import Exemplo15 from './components/Exemplo07teclado.vue'
 // import Exemplo016 from './components/Exemplo08Props.vue'
 // import Exemplo017 from './components/exercicios/Exemplo11exercicio.vue'
-import {ref} from 'vue'
-import Exemplo018 from './components/Exemplo09Emits.vue'
-const totalCliques = ref(0)
-function atualizarTotalCliques(novoValor) {
-    totalCliques.value = novoValor
-}
+// import {ref} from 'vue'
+// import Exemplo018 from './components/Exemplo09Emits.vue'
+// const totalCliques = ref(0)
+// function atualizarTotalCliques(novoValor) {
+//    totalCliques.value = novoValor
+// }
+// import Exemplo13exercicio from './components/exercicios/Exemplo13exercicio.vue'
+import Exemplo14exercicio from './components/exercicios/Exemplo14exercicio.vue'
 </script>
 
 <template>
@@ -29,4 +31,63 @@ function atualizarTotalCliques(novoValor) {
   <Exemplo017 titulo="Produto 1" preco="100" :imagem="'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEBAPEBAPEA8QDw8QDw8VEBAQDxAQFRYWFxUVFRUYHSggGBolGxUVITEiJSkrMDAuFx8zOTMsQygxLisBCgoKDQ0NDw8PDysZFRkrKysrLSsrNy0rLTcrKy0rLSs3LTctNy0rNzcrNystLSs3Ky0rLS0tKystKy0tKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAgEGAwQFBwj/xAA/EAACAQIEBQEFBwMCAwkAAAABAgADEQQSIUEFBjFRYRMiMkJxgVJicpGhscEjM/AU8QdTgiQ0Q2Nzg5LC0f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABETH/2gAMAwEAAhEDEQA/APbZMiTCCEIQJhCEKIQgYBCI9QAXJAA1J2AlE5k51JzU8I2VBo2I0uf/AE76Aefy7wmr5UqqurMqjuSB+8EcMLqQw7ggieHVqmds7hnY9XqEs5+rXMfCYj0mzUy9B/t02Kn62tcfO4g17hJlF4DzsRanjLFTouKUWH/uqOn4hp3Al4puGAZSCpAIINwQdwYU0IQgEIQgEIQgEIQgEIQgEIQgEIQgEISYESYQgEIQgEIQgY5MIQghCTAIQkEwoJmtisSqKWYgAAkkmwAG8XHYxaSszMFVQSWJsAJ5jzJzE2KYqpKUAenQv5b+B/gIz80cytiS1OmSuHHvHoanz+743lUNQ50voCxyr8hcX83tM4qjdW06DT8/nOTzAKhph6P9ym2cKdMw3F/86So7KKXJ3br5JiWN7b3t9ZWMLzdT92sCjjqGBU3+gt+3ym9w3mlXqWpUy/XXUfkxAt87Hx3gd7C02y3U6hmBU+6wB0+RtvOzy/zBWwhtT9qne74VzYDuaZ+E/LQ9t5ycGrBbvYMxLMALKL7AbACwHylho8rVK1NahKrmXMnXMAehuOkC/cG41QxiZqTai2em2lSmezL/ACNDOjPGrVsNWsWanXpk5KqmxPg7G/Y6GXjl3nJKuWlistKqbBanSjUP19xvB07HaRdW2EIQohCEAhCEAhCEAhCEAhCEAkwhAIQhAIQhAIQhAQQgIQiYSJBMKCZpcRx6UUZ3YKqi5J2mPi3FKeHptUqMFVep3J2AG58Ty3jvGqmMe7XWmp/p079PvN3b9v3IbmfmJ8UT1Sgpuqbtb4m8+NpwcJiM127AFfF76/PT9Y2PplkYDqVNpVKfHvSKEjRF9KqNfZsdCR2ItrsRKi6jDMVDDoSQNdbi231mtWHsnuASPmNZo4bmGiykh7DfVT+oP72j4DjtKpnCJ6htZRe4J7EjQDvYkkaaXJBGzX4fQdQ7ooJUE6A2016wo4RaYBUBL6hQBcDa/YzFjXNOj7RuQEBJ3NwNfrM6Vw1mBuG1hWYVmG5Pz1lr4PzpUp0lpPQFX0wFWoHy3AHs5hbtbXeU93F9Py8zcw+GanUYNcEqLr5B1/InL81YbQOvxKscVVzZbMzCwHiaOKQB3XQgEgjYzr0gMInqv/edf6NPdQfjbsO04hN7k79ZR3+Xuaa2EtTfNWw/TKTerSH3CfeH3T9COk9F4dxCliaYq0XDodx1B3DA6qfBnjYM2eH46rh6nq0HKPoG3Rx2dfiH6jYiTFeyQle5d5qpYu1NwKOIt/bJutTuabfF8uo/WWGRRCEIBCEIBCEIBCEIEwhCAQhCAQhCAQhCAkISCYQEzlcb4xSw1M1KjWA0A6szbKo3Mxcf45SwtMu58Kg1d22VR3/aeV8U4lVxVT1ap6XCUwbpTXsO57neBm4zxapi6md9FF/TpXuEHc928zSEQRxNICJXuN8BDt6tL2am4+1LDAiQU7BcKw7nLVprTe9r2IRj26+yfEs+AwNOgLKAPpaTXwobUWDfK4I7MNxMKEj2bWP2Cbg/gY9fkYGzxDAGvTdCNHUg9B1lLSpjMI2Qq1RQfeW2Yj7wINz5/WXeljAdL6jqvQj5g9JhdVLXfKQb+yepJ6W362kmrcV7CY/FVXXKj0xcak5Wv4y63+s9FwGGGFpriMR7dd1X0aJsFCj3SQOiDtv++Hh+Cp4VRXrIpqn+zQ3/ABP2HjeauIxD1WLuSzMdT/A8SonEV3qsXdizMbk/5tEEgSZRIjRYwgSQD17gjYgjoQdj5l35N5md2XC4lszEH0Kx957C5pv3awJB3AN9RrSJloZsyFPfWpSZPxh1K/rp9ZB7NCEJGhCEIBCEIBCEIEwhCAQhCAQhCAQhCBiY2nB5k5gp4SnmY3Y6U6Y9527Dx3O0xc0cyU8ImvtVGuKdIH2nP8KNzPLcdjKmIqGtVbM7afdRfsqNhDOsnEMfUxNQ1qxux0VR7lNfsr/J3mveLJE0GjgzHGgPCKI0CbRKlIMLEAiOISDX/wBOe4YbB1D2+vWbOGJQ3UU1b7QQZvoTASYDliTckknqSbkyYokyhpIkSYEiMIok3gMJaeUOFZqi1HGinMo7sCf0BB+o+6Zy+EcNNQhmBy30GoLHsLdPJ26DW5T0HhGC9BAWsGIGmgygDQeNLC21rSUdS8qPOfOq4H+nRCVK/wAQa+RB2Nt/2nP5251GHzUKDXrW9ph0pA//AG/aeVuz1S1Rje2ruzBVXyzMbD6yLr2rlPnbD4+1M/0MVbWgzXD9zSf4x40I7by0z5qpFWICVaLtcFQlemalxqCtje/kT0LlP/iK9K1DH5nQHKuKsTUTxVUe8PvDXuDqYJXqcJjw9dKiLUpsro4DK6kMrA9CCOomSFEIQgTCEIBCEIBCEIBCEIHgGJxNStUatVYvUfq2wGyqNlHaY4t5M0wYRgYgjCFPJEWPTQt0gF4wMdqBHYxEUnoIEyZBUjrAQGkxZMgaSIt5MoeTFEmA150+FcPzsCxsL2GtmZrXyr5tqTsPPTFwvAGo24AIuR1B0Nh96xB8Agnqoa68scANM/6rEqoq2K0aQOanh6V9At+rHqSdSTIOnwnhq0lDsACAMq2sFA6abfKVbnznMUAcPQINcj2m6iiDv+I7D6x+fecxhgaFAg4hhqeooqfiPduw+vz8jLNUYn2nZiWPVmYnqT3Milr1ibsSSSSbk3JJ3J7zPzJi1L08DSsiUg2d/ieoLg2OxNib9iBsb6+MwVQ02BVwCCL5SLfXachicSxcMFxSkmpSYhc53ZCdNddPMrNa+MoMtswNiLgnXMO8sXBarVsOzMczUHVQ5N2amwNgx3ykWv2bxOZVXF1EFArlphg1iVChrZb369NN/wBJ3cNhlw1AUgwapUYNVIOigXsp83N7bZRfUkAkdflnmbE8Pa9EhqRN6mGYn0mv1K/YbyPqDPYeWuZsNxBL0Wy1FANWg1hVp37jcfeFxPBRM2GrvTdalN2p1EN0qKcrqfB7dwdDvDWvo2EoPKf/ABDSrlo47LSqkhUxA9mjUOwf/lt+h7jpL9I0JMiTAIQhAIQhAIQhA+eRJBiyQZpk4kiII0B1Fzab6AAWE0KbWIM2RUhK2M0Qr2Nv2mP1JjeqdoEEneSDFvJhTRokaBMYRRJEBgZtYahfXXqBYAFiSLhVB0Lka66KDmOlgy4PD5iLkKCVFzbQt7oF9Cx2H1OmjXvljl70ya9bKdT6Ca2Snodb9STdiepJ1vaQbHLPBPSUVauhIGWmCSiDU6X1OpJLHViSTOLz9zoMMDh6BBxDDU9RRU/EfPYTJz9zmMIpo0SGxLjTcUl+23nsJ45Vqs7FmYszEszE3ZmPUkyBqlRnbqWZ26k6s7HqT3vI5rxKIy4LDXYqL1nBt6j+e4trY6AEaXvNbFMwXMnvoQy/NTcfqJoNUcVRjaa+tTJU1FtmKkWurqNbaWP1lK5tOs1FsyH02HxIchH1FpYKdFMZRFZ1Aqo4p1GUZLkglHFuhNmuBpdbi17DiY3EjEEClTJqFmLZQSfatpYaBRY2+ctPD8CcNhlVz/UqkOV7IL6n5ki34T3FyRqUsAAblqj/AI3dx+RNpt16wpoWPura/hbgG30jCd/hXKVfGYWriU9P0kzqVYnM9hdgBbsd44rzfE4w1HNSp8R6DQKNgo2Ane5exDVKbZiSEbKrHfS5F97XH/yE1KnLyk+y5C30BBYjxe4/WdrCURTRaY91RYdB5J038wjYEtHKnOdfA5abZq+FGnpE/wBWkP8AymO33Dp2IlWEyCVXv3COLUMZTFahUDodDsyNurKdVPgzengHC+IVsLUFbD1DTqaAnqjr9movRh+o2InqvKvO1HGWo1QKGK2pk3p1fNJj1/CdR56zKyrVCEIUQhCAQhCB87gyYgjCaZMI0SMIDCMDEEkQHBkxRJEB5IiCMJAwk3iyYDiZ6NPc9BbbN10Gm5J0C7nwCZGEw5dgo6kX6XAGtiwuNLggC+pB6AMy3nl7lamWpYiqCfSzlAT7zuAGdtNTYWvpoSAALAA3KnLtsuIrrawPpUib5QepJ+Jjud+g06nPPOCYJMiWfEOD6dPYD7b9lH69Pk3O3N9PAplWz13B9Ole3/U3ZRPEcdjKleo9Wo5eo5u7Hc7ADYDYSKmpUqV6lyTUq1XF2PvO7G38zV5h4kMLU9DDlS6AepWyo5ZiL+zmBCrrpYXtYk62C1MT6TJUvYK63Pa+l/pe85NVVSpWatcklnQb1Ax0AO3mVDUuZMQD/UK1l3R0UgjwwAZfoZ0BhFOXE4Wo9L1L3W4JVx7yMOhtcEG2oYHTpKqBLtwzBmlhkzCzVGBA3soN/wBWA/6T2gIvrsRnqG3ZRYH53vNmtXCjM50v7R1J8nXqbQEx4zDiqjITa/Q9iNQYFer8YxJ/qr7FNmYIMoZRa1xcjUi4v89pZ+AccrPRYLUqUwxK1qaO603Nt1B10O84C4PFKhoqEKXexsl1D2D5W0axAAIM7nDcKKNJaYHS7MepZz1JP0A+QHkkNsR1iLHEocRxFAjiA6x8oOh6XB+RHQjsfMVY4hFz5Y58q4fLSxmevQ6DEAFq9IffA/uL5HteG6z0zCYqnWRatJ1qU3GZHUhlYdwRPBFnR4HxjEYFy+HYZWN6mHa/oVfNh7j/AHh9QZMWV7hCc3gHGFxlFaoR6TfHSe2dD9NCOxHWdKRoQhCB86CTFEaaYMDGBiCNeFNJEUSRAcSYkYGA8kRQZIgNM+GoM5AUXJ6X6AdMzW28bkW0sSqYeiXIAFyeg/k+P9pfuVuXhbM/u3uzHQue3y0HytYSDLyvy8FUO98t7knq7aX6fIdLDQAWAAGXnXmungKWlmqtcUaV7XI3PZRufpMvOHM9Lh9G5sXIK0aQNi7D9lGlztPCeLcTq4qq9aq2ao51PwqB0VRsokVGPxtSvUerVcvUc3Zj+gA2A2E14gMaVEVaYcFTqCJoLTqIPTdFxFEH2Q2jp8jOiIwgaWEpqrApQVLfE2ZnHyFzb852KtdnN22AA2AA6AAdB/nma4EcQHBjCII4gOscRBHEB1jiIsyCA6x1igTIJQyx1iqI4hDCWTlngof/ALRX0oJr+M9hNTlzgpxL5n9mimruelu09D4TgRXKtly4al/Zp2tmP2zIRtcDwrljiHul09OnS6Bad7i47ztyALSZGxCEIHzkI0UQmmDiSDFkgwpxJBiAxhAYRhFEkQGEy0kLEAC7H3Vva9rXJOyi4ufIAuSAUpqSRYXJ0Vb2zHS+uwFxc+RoSQDd+UeWyxzv00zta17dFUbAXNhra5OpJLQZ+UeXwwFRrlTYs9sua2yjYfsO5Nz2ea+ZKPD6GY9fdpUlsGdtlHYdztG5m5gocOoZm0A9mnTX3qjbKo/nbqZ4Nx7jVXG1mrVmux0VR7lNPsL/ACdzIpeNcXq4us1aq2Z20091F2RBsB+vWaEiEqHBjCJGEBxHEQRgIDiOIgjCBkEYRRHEBxHEURxAYTIsQTIsocCZFiLMiwhhOnwPhT4qoEXRRq7bKJq8NwL4iotKmLsx/Id56NwjhQA/0tH3R/3msOrHdAZBscL4ctXLRpjLhaR9o/8AOcfxLYiBQABYDpEw1BaahFFgBYCZZGoIQhCiEIQPnESYgkiaYNGiyRCmEYRJIhGSOi3toTc2AHVj2H8nb8gca/XU2AHvM32R5/brLnyjy21RhUcW6XPw012Ve5/3kVn5T5bLnO/jO1tANlX8z+ZJuSSbRzDxyhw7DlmOVFGVEHvO2yqN2P8A+kxuOcXw/D8OXYhKaCwA1ZmPRQN2JngvM/MNXHVjVqGwFxSpA3Wkh28sdzIpOY+O1sdWNWqddQiA3Wkn2V89zv8AkJybxbyRKHEYRAYwhDCOIgjiAwjrEEcQHEYRRHEBxHEQR1gZFjiIJkWUOI6xFmRYQ6zYw1FqjKiAlmNgJhRSSABcnQCX/lzg5wyqcobF1R7ItcUUPxHzA2+B8I9AChT1xDgGvVH/AISn4R5l1wGDWigRRYDr5MxcK4etBLdXOrsdSWPUkzemWpBJkSRCiEIQCEIQPm4SRCE0wkGMIQgTJJABY3sLXt1JJAAHkkgdtYQgW7k/l1q7h3yg2va91pp2Hc9Ndz20Av3FcfRwGHdzdaVJCzEAsbDfTqYQmVeB82cy1cfW9R7qi39Gle4pqdz3c7n6CcGEJQSZMIEiMIQgOIwhCA4jiEIDiOIQlDiOIQhGVY6whAyLMiwhAunK3CBSRcVUUO7nLh6e2bux2nonBeHemDUc5qr6s3+dB4hCRY6kIQkaEmEIBCEIBCEIH//Z'" :inStock="true" />
   <Exemplo018></Exemplo018>
   <p> Total de cliques: {{ totalCliques }}</p>
+
+
+
+<Exemplo14exercicio titulo="Título do Card" descricao="Uma musica que eu gosto">
+  olá me chamo Pedro e essa é a musica:
+I wanna be a billionaire so fucking bad
+Buy all of the things I never had
+I wanna be on the cover of Forbes magazine
+Smilin' next to Oprah and the Queen
+Oh, every time I close my eyes
+I see my name in shiny lights, yeah
+A different city every night, oh, I swear
+The world better prepare for when I'm a billionaire
+Yeah, I would have a show like Oprah, I would be the host of
+Every Day Christmas, give Travie your wish list
+I'd probably pull a "Angelina and Brad Pitt"
+And adopt a bunch of babies that ain't never had shit
+Give away a few Mercedes, like, "Here, lady, have this"
+And last but not least, grant somebody their last wish
+It's been a couple months that I've been single, so
+You can call me Travie Claus, minus the "Ho, ho"
+Get it? I'd probably visit where Katrina hit
+And damn sure do a lot more than FEMA did
+Yeah, can't forget about me, stupid
+Everywhere I go, I'ma have my own theme music
+Oh, every time I close my eyes (what you see? What you see, brah?)
+I see my name in shiny lights (uh-huh, uh-huh), oh, yeah, yeah (and what else?)
+A different city every night (uh), oh, I swear (yeah, yeah, yeah)
+The world better prepare (for what?) for when I'm a billionaire
+Oh, oh (oh), when I'm a billionaire
+Oh, oh (let's go)
+I'll be playing basketball with the president, dunkin' on his delegates
+Then I'll compliment him on his political etiquette (good job)
+Toss a couple milli' in the air just for the heck of it (money)
+But keep the fives, twenties, tens, and Bens completely separate
+And yeah, I'll be in a whole new tax bracket
+We in recession, but let me take a crack at it
+I'll probably take whatever's left and just split it up (there you go)
+So everybody that I love can have a couple bucks (you too)
+And not a single tummy around me
+Would know what hungry was, eatin' good, sleepin' soundly
+I know we all have a similar dream (uh-huh)
+Go in your pocket, pull out your wallet, put it in the air and sing
+I wanna be a billionaire so fucking bad (so bad)
+Buy all of the things I never had (buy everything)
+I wanna be on the cover of Forbes magazine
+Smilin' next to Oprah and the Queen (what up, Oprah?)
+Oh, every time I close my eyes (what you see? What you see, brah?)
+I see my name in shiny lights (uh-huh, uh-huh), oh, yeah, yeah (and what else?)
+A different city every night (uh), oh, I swear (yeah, yeah, yeah)
+The world better prepare (for what?) for when I'm a billionaire (yeah)
+Oh, oh (singin'), when I'm a billionaire
+Oh, oh (oh)
+I wanna be a billionaire (uh-huh) so fucking bad 
+  <template #footer>
+    Rodapé personalizado.
+  </template>
+</Exemplo14exercicio>
+
 </template>
